@@ -1,0 +1,140 @@
+/* Reset default styles for all elements and apply the box-sizing model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* General page styling */
+body {
+    background-color: #1a212d; /* Dark background color */
+    color: #fff; /* White text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Main content container */
+.container {
+    width: 42rem;
+    padding: 30px 22px;
+}
+
+/* Header styling */
+.container h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Search box container */
+.searchBox {
+    background-color: #161922;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+/* Search input field */
+.searchBox input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Search button styles */
+.searchBox button {
+    background-color: transparent;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 300ms all ease;
+}
+
+/* Hover effect for search button */
+.searchBox button:hover {
+    background-color: #3a28fa;
+}
+
+/* User details section */
+.details {
+    margin-top: 20px;
+    background-color: #161922;
+    padding: 20px 25px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: none; /* Initially hidden */
+}
+
+/* Profile image container */
+.profile-image {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Profile image styling */
+.profile-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Profile details section */
+.profile-details {
+    padding: 10px;
+    width: 25rem;
+}
+
+/* Username styling */
+.username {
+    font-size: 13px;
+    color: #675afe;
+}
+
+/* User bio section */
+.bio {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* User statistics container */
+.stats {
+    background-color: #20232c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+/* Social media and additional info section */
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Media information paragraphs */
+.media p {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
