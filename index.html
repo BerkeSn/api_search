@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Page Title -->
+        <h1>Work with Github API</h1>
+        
+        <!-- Search Box Section -->
+        <div class="searchBox">
+            <!-- Input field for GitHub username -->
+            <input type="text" id="searchInput" placeholder="Github Kullanıcı Adı...">
+            <!-- Button to trigger the search function -->
+            <button onclick="searchGithub()">Call</button>
+        </div>
+        
+        <!-- Section to display search results -->
+        <div id="result" class="details"></div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
